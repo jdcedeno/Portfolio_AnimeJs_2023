@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.cjs"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "JDC Web Developer",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "express": "^4.18.2"
+  }
 }
